@@ -2,7 +2,7 @@
     "rules": {
         "linebreak-style": 0,
         "indent": 0,
-        "max-len": [2, 400, 4, {"ignoreUrls": true}],
+        "max-len": 0,
         "camelcase": [2, {"properties": "never"}],
         "one-var": 0,
         "space-before-blocks":0,
