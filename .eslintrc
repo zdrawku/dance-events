@@ -1,0 +1,22 @@
+{
+    "rules": {
+        "linebreak-style": 0,
+        "indent": 0,
+        "max-len": [2, 400, 4, {"ignoreUrls": true}],
+        "camelcase": [2, {"properties": "never"}],
+        "one-var": 0,
+        "space-before-blocks":0,
+        "quotes":0,
+        "no-useless-concat": 0,
+        "wrap-iife":0,
+        "brace-style":0
+    },
+    "globals": {
+        "window": true,
+        "FB": true,
+        "i" : true,
+        "date":true,
+        "document":true,
+        "$":true
+    }
+}
