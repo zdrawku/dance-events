@@ -10,7 +10,7 @@ window.fbAsyncInit = function() {
 		'/ritmo.bg/events',
 		'GET',
 		{
-			access_token: 'EAAc7ufvPZCKABAKmJZBD8jnZArVGLRtfK3lE4a3lrc49Mq0MH5mJneEnERbi1i1ZCNOS9ZAVTgNHRSXhfMQahx0RNQW0Vu3lLNRt0eIxR7hFrQEs5ghxHmm8j4TtGTuZCkNJoYNdAb6KqwZCO5vDXDZCUBl83GsxG7k7BLWTvHf7kCxlvlICJn26HmkNCuCnUl8ZD'
+			access_token: 'EAAc7ufvPZCKABAOQW4pnuZBtb2CLFNnjgHbM3RNjBtgwmaGMzCXvvx5PbpwtMSm3ydNhytLeZB3ovIyWZCYEVINfdFIy8NfFDdtu1fG3hybnMQBpZBZBCvXpDkaEaMBMaOdcoHKqscTZAcqJZBm4RMubV4WpQdtzAZCBb6gjfhHf7VjFDh3MnXVqjLNWwWiJRfEAZD'
 		},
 		function(response) {
 			var events = response.data, section,
