@@ -1,7 +1,10 @@
+/* eslint-disable */
 window.fbAsyncInit = function() {
 	FB.init({
-	appId: '2035994816674976',
+		appId: '2035994816674976',
 		xfbml: true,
+		status     : true, // check login status
+        cookie     : true,
 		version: 'v2.10'
 	});
 	FB.AppEvents.logPageView();
@@ -10,7 +13,7 @@ window.fbAsyncInit = function() {
 		'/ritmo.bg/events',
 		'GET',
 		{
-			access_token: 'EAAc7ufvPZCKABAOQW4pnuZBtb2CLFNnjgHbM3RNjBtgwmaGMzCXvvx5PbpwtMSm3ydNhytLeZB3ovIyWZCYEVINfdFIy8NfFDdtu1fG3hybnMQBpZBZBCvXpDkaEaMBMaOdcoHKqscTZAcqJZBm4RMubV4WpQdtzAZCBb6gjfhHf7VjFDh3MnXVqjLNWwWiJRfEAZD'
+			access_token: '2035994816674976|L6j3O6oqJdpYPm7icOS0UV25ZDc'
 		},
 		function(response) {
 			var events = response.data, section,
@@ -47,6 +50,7 @@ window.fbAsyncInit = function() {
 		}
 	);
 };
+
 
 (function(d, s, id){
 	var js, fjs = d.getElementsByTagName(s)[0];
