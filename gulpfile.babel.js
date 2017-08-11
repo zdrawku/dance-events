@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  *
  *  Web Starter Kit
