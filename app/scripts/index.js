@@ -69,7 +69,7 @@ window.fbAsyncInit = function() {
 	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
-$( window).load(function() {
+window.onload  = function() {
 	$('a').click( function(e) {
 		var elementId = e.target.parentElement.id;
 
@@ -84,7 +84,7 @@ $( window).load(function() {
 				break;
 		}
 	});
-});
+};
 
 function requestData(id, container){
 	var containerElement = container;
